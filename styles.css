@@ -22,7 +22,88 @@ h2{
 }  
 label{  
     color: #08ffd1;  
-    font-size: 17px;  
+    font-size: 17px;  body {
+  margin: 0;
+  padding: 0;
+  background-color: #252525;
+  font-family: 'Arial',sans-serif;
+  font-weight: bold;
+}
+
+.login {
+  width: 50%;
+  overflow: hidden;
+  margin:22.5%;
+  padding: 2rem;
+  background: #252525;
+  border-radius: 15px;
+  border:.5rem solid cyan;
+  box-shadow: 10px 10px 1px 10px cyan;
+}
+
+section h2 {
+  text-align: center;
+  color: cyan;
+}
+
+label {
+  color: cyan;
+  font-size: 17px;
+}
+
+#Uname {
+  width: 300px;
+  height: 30px;
+  border-radius: 5px;
+  margin-left: 1rem;
+  border: 1px solid cyan;
+  background: transparent;
+  padding-left: 1rem;
+}
+
+#Pass {
+  width: 300px;
+  height: 30px;
+  border: 1px solid cyan;
+  background: transparent;
+  border-radius: 3px;
+  margin-left: 1.55rem;
+  padding-top:1px;
+  
+  padding-left: 1rem;
+}
+
+#log {
+  width: 150px;
+  height: 30px;
+  border: 1px solid cyan;
+  border-radius: 17px;
+  margin-left: 35%;
+  color:cyan;
+  text-align: center;
+  background: #222;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+#check{
+  margin-top:1px;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+p{
+  color: cyan;
+  margin-top: -1.3rem;
+  margin-left: 1.35rem;
+}
+
+a {
+  float: right;
+  text-decoration: none;
+  color: cyan;
+}
 }  
 #Uname{  
     width: 300px;  
